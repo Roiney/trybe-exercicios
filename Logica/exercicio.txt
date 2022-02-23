@@ -1,0 +1,32 @@
+-> Criar dado <nomeDoDado> guardando um conteudo em formato de texto <nomeDoTexto>
+       frutas = [cenoura: 7;]
+-> Criar dado <nomeDoDado> guardando um conteudo em formato de numero <numero>
+       valor = 5
+-> Criar dado <nomeDoDado> guardando um conteudo em formato verdadeiro ou falso <insiraAquiVardadeiroOuFalso>
+       desconto = verdadeiro
+-> Criar dado <nomeDoDado> guardando multiplos dados <nomeDoDado1> <nomeDoDado2> <nomeDoDado3> <nomeDoDado4>
+  lista = cebola , abacaxi , banana
+-> É Verdade que este dado <nomeDoDado> é igual a este <nomeDoDado>
+       frutas == valor
+       //provavelmente n
+-> É Verdade que este dado <nomeDoDado> é diferente deste <nomeDoDado>
+-> É Verdade que este dado <nomeDoDado> é maior a este <nomeDoDado>
+-> É Verdade que este dado <nomeDoDado> é menor que este <nomeDoDado>
+-> Se a comparação for verdadeira execute uma saida
+       <estruturaDeComparacao>
+               <estruturaDeSaida>
+-> fimEstruturaParaChecarComparacao
+-> Usar este dado multiplo <nomeDoDadoMultiplo> e fazer uma verificação individual em cada dado dentro dele.
+       <dadoAtual>
+               <estruturaDeSaida>
+-> fimEstruturaRepticao
+-> Mostrar dado (nomeDoDado)
+____________________________________________
+Abaixo o gabarito das questões  1 e 5 para ajudar com as outras:
+1) guardar as frutas
+-> Criar dado <fruta1> guardar um conteudo em formato de texto <maça>
+5) guardar 2 caixas contendo frutas sortidas
+-> Guardar chamado de <caixa1> guardando multiplos dados <fruta1> <fruta2> <fruta3> <fruta4> <fruta5>
+:seta_para_direita: Sugestões:
+Façam utilizando a linguagem de programação Fictícia que foi passada no link acima, evitando usar Java Script ou qualquer outra linguagem caso já tenha conhecimento.
+ Utilizem qualquer editor de texto, GoogleDocs ou, se se sentir à vontade use o VS Code com um arquivo com a extensão .html.
