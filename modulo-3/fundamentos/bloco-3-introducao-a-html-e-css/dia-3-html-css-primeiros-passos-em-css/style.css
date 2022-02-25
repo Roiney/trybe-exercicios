@@ -1,0 +1,23 @@
+h2 {
+    color: rgb(32, 1, 1)
+  }
+
+  h3 {
+    color: rgb(32, 1, 1);
+  }
+
+  body {
+    background-color: rgb(165, 152, 157); 
+  }
+
+  .list-style {
+    color: rgb(32, 11, 45);
+    line-height: 22px;
+  }
+  p{
+    font-family:'Times New Roman', Times, serif
+  }
+  #Dcao{
+    color: rgb(32, 1, 1);
+    font-size: 16px;
+  }
