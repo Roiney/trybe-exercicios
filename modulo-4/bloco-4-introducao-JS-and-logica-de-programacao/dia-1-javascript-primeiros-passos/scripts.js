@@ -55,3 +55,18 @@ if ((f+g+e) < 0) {
   } else if ((f+g+e) > 0 && (f+g+e) !== 180) {
     console.log("false");
   }
+
+// xadrez
+
+let text = 'rei';
+
+if ( text === 'rei'){
+    console.log('se desloca uma casa na direção horizontal, vertical ou diagonal')
+} else if ( text === 'dama') {
+    console.log('possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais')
+} else if ( text === 'torre') {
+    consloe.log('move-se em linha reta nas colunas e fileiras do Tabuleiro')
+} else {
+    console.log('peça não existe')
+}
+
