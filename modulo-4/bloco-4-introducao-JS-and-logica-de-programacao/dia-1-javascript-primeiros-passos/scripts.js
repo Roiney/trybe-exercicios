@@ -5,41 +5,53 @@ const d = 0;
 
 // triangulo
 
-const e = 10;
-const f = 10;
-const g = 10;
+const e = 0;
+const f = 90;
+const g = 90;
 
 // operaçãoes
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
 
 // compração com 2 variaveis
 
-if (a > b){
-    console.log(a);
+if (a > b) {
+  console.log(a);
 } else {
-    console.log(b)
+  console.log(b);
 }
 
 // compração com 3 variaveis
 
-if (a > b && a > c){
-    console.log(a)
-} else if ( b > a && b > c){
-    console.log (b)
- } else {
-     console.log(c)
- }
+if (a > b && a > c) {
+  console.log(a);
+} else if (b > a && b > c) {
+  console.log(b);
+} else {
+  console.log(c);
+}
 
- // 4
- if (d > 0){
-     console.log("positive")
- } else if (d < 0){
-     console.log("negative")
- } else {
-     console.log("zero")
- }
+// 4
+if (d > 0) {
+  console.log("positive");
+} else if (d < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+}
+
+// triangulo
+
+let T = f + g + e;
+
+if ((f+g+e) < 0) {
+    console.log("error");
+  } else if ((f+g+e) > 0 && (f+g+e) === 180) {
+    console.log("true");
+  } else if ((f+g+e) > 0 && (f+g+e) !== 180) {
+    console.log("false");
+  }
