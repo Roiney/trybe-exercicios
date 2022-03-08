@@ -58,15 +58,14 @@ if ((f+g+e) < 0) {
 
 // xadrez
 
-let text = 'rei';
+let text = 'Dama';
 
-if ( text === 'rei'){
+if ( text.toLowerCase() === 'rei'){
     console.log('se desloca uma casa na direção horizontal, vertical ou diagonal')
-} else if ( text === 'dama') {
+} else if ( text.toLowerCase() === 'dama') {
     console.log('possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais')
-} else if ( text === 'torre') {
+} else if ( text.toLowerCase() === 'torre') {
     consloe.log('move-se em linha reta nas colunas e fileiras do Tabuleiro')
 } else {
     console.log('peça não existe')
 }
-
