@@ -1,5 +1,6 @@
 let number = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma =0;
+let maior = number[0];
 
 // Imprimir Array
 
@@ -12,7 +13,7 @@ for (i = 0; i < number.length; i++){
   }
   console.log(soma);
 
-  // MÉdia aritimética
+  // Média aritimética
 
   let media = soma/number.length;
   console.log(media);
@@ -21,3 +22,13 @@ for (i = 0; i < number.length; i++){
   } else {
     console.log("valor maior que 20")
   }
+
+  //Valor Maior
+  
+  for (let i = 1; i < number.length; i++){
+    if(maior < number[i]){
+      maior = number[i];
+    }
+  }
+
+  console.log('O número maior é ', maior)
