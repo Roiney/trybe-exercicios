@@ -58,14 +58,18 @@ if ((f+g+e) < 0) {
 
 // xadrez
 
-let text = 'Dama';
+let text = 'Cavalo';
 
 if ( text.toLowerCase() === 'rei'){
-    console.log('se desloca uma casa na direção horizontal, vertical ou diagonal')
+   console.log ("Peça = " + text +" "+"Movimento = se desloca uma casa na direção horizontal, vertical ou diagonal")
 } else if ( text.toLowerCase() === 'dama') {
-    console.log('possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais')
+    console.log("Peça = " + text +" "+"Movimento = possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais")
 } else if ( text.toLowerCase() === 'torre') {
-    consloe.log('move-se em linha reta nas colunas e fileiras do Tabuleiro')
+    consloe.log("Peça = " + text +" "+"Movimento = move-se em linha reta nas colunas e fileiras do Tabuleiro")
+} else if ( text.toLowerCase() === 'cavalo') {
+console.log ("Peça = " + text +" "+"Movimento = assemelhado a um 'L' e, diferente das outras peças, pode pular as peças intervenientes.")
+} else if ( text.toLowerCase() === 'peão') {
+  console.log ("Peça = " + text +" "+"Movimento = move-se verticalmente na coluna que encontra-se, sendo incapaz de recuar. No primeiro movimento de cada peão, a partir do ponto de partida, pode avançar duas casas e, a partir daí, uma.")
 } else {
-    console.log('peça não existe')
+    console.log('Peça não existe')
 }
