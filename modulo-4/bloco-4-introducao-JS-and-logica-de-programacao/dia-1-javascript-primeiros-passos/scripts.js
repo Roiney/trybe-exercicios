@@ -48,28 +48,84 @@ if (d > 0) {
 
 let T = f + g + e;
 
-if ((f+g+e) < 0) {
-    console.log("error");
-  } else if ((f+g+e) > 0 && (f+g+e) === 180) {
-    console.log("true");
-  } else if ((f+g+e) > 0 && (f+g+e) !== 180) {
-    console.log("false");
-  }
+if (f + g + e < 0) {
+  console.log("error");
+} else if (f + g + e > 0 && f + g + e === 180) {
+  console.log("true");
+} else if (f + g + e > 0 && f + g + e !== 180) {
+  console.log("false");
+}
 
 // xadrez
 
-let text = 'Cavalo';
+let text = "new";
 
-if ( text.toLowerCase() === 'rei'){
-   console.log ("Peça = " + text +" "+"Movimento = se desloca uma casa na direção horizontal, vertical ou diagonal")
-} else if ( text.toLowerCase() === 'dama') {
-    console.log("Peça = " + text +" "+"Movimento = possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais")
-} else if ( text.toLowerCase() === 'torre') {
-    consloe.log("Peça = " + text +" "+"Movimento = move-se em linha reta nas colunas e fileiras do Tabuleiro")
-} else if ( text.toLowerCase() === 'cavalo') {
-console.log ("Peça = " + text +" "+"Movimento = assemelhado a um 'L' e, diferente das outras peças, pode pular as peças intervenientes.")
-} else if ( text.toLowerCase() === 'peão') {
-  console.log ("Peça = " + text +" "+"Movimento = move-se verticalmente na coluna que encontra-se, sendo incapaz de recuar. No primeiro movimento de cada peão, a partir do ponto de partida, pode avançar duas casas e, a partir daí, uma.")
+console.log("Exercício de xadrez");
+if (text.toLowerCase() === "rei") {
+  console.log(
+    "Peça = " +
+      text +
+      " " +
+      "Movimento = se desloca uma casa na direção horizontal, vertical ou diagonal"
+  );
+} else if (text.toLowerCase() === "dama") {
+  console.log(
+    "Peça = " +
+      text +
+      " " +
+      "Movimento = possui o movimento combinado da Torre e do Bispo, movendo-se em linha reta nas fileiras, colunas e diagonais"
+  );
+} else if (text.toLowerCase() === "torre") {
+  consloe.log(
+    "Peça = " +
+      text +
+      " " +
+      "Movimento = move-se em linha reta nas colunas e fileiras do Tabuleiro"
+  );
+} else if (text.toLowerCase() === "cavalo") {
+  console.log(
+    "Peça = " +
+      text +
+      " " +
+      "Movimento = assemelhado a um 'L' e, diferente das outras peças, pode pular as peças intervenientes."
+  );
+} else if (text.toLowerCase() === "peão") {
+  console.log(
+    "Peça = " +
+      text +
+      " " +
+      "Movimento = move-se verticalmente na coluna que encontra-se, sendo incapaz de recuar. No primeiro movimento de cada peão, a partir do ponto de partida, pode avançar duas casas e, a partir daí, uma."
+  );
 } else {
-    console.log('Peça não existe')
+  console.log("Peça não existe");
 }
+
+
+let nota = 5;
+
+console.log("Conceito do aluno")
+if (nota >= 90) {
+  console.log ("conceito A")
+} else if ( nota >= 80) {
+  console.log("conceito B")
+} else if ( nota >= 70) {
+  console.log ("Conceito C")
+} else if ( nota >= 60) {
+  console.log("conceito D")
+} else if ( nota >= 50) {
+  console.log ("Conceito E")
+} else if ( nota < 50) {
+  console.log("conceito F")
+} 
+
+
+let num1 = 2;
+let num2 = 5;
+let num3 = 3;
+
+if (num1  % 2 === 0 || num2  % 2 === 0 || num3  % 2 === 0){
+  console.log("true")
+} else {
+  console.log("false")
+}
+
