@@ -57,16 +57,19 @@ else if (jogador1 == "papel"){
 
 }
 
+
+//Pessoa Mais Nova
+
 let Marcerlla = 50;
 let Carlos = 30;
 let Camila = 40;
 let pessoaMaisNova = Marcerlla;
 
-if (Marcerlla < pessoaMaisNova){
+if (Marcerlla > pessoaMaisNova){
  Marcela = pessoaMaisNova
-} else if (Camila < pessoaMaisNova) {
+} else if (Camila > pessoaMaisNova) {
     Camila = pessoaMaisNova
-} else if (Carlos < pessoaMaisNova){
+} else if (Carlos > pessoaMaisNova){
     Carlos = pessoaMaisNova
 }
 

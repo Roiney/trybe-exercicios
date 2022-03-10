@@ -1,7 +1,7 @@
 //fatotial
 
-var resultado = 
-for (var i = 50 ; i =< 100; i++) {
+var resultado; 
+for (let i = 50 ; i < 100; i++) {
     resultado += i;
 }
 console.log(resultado);
@@ -37,4 +37,16 @@ for (let i = 1; i < array.length; i++) {
   
   console.log('O menor palavra é ', maior);
 
- 
+ // Primos
+ let divisiveisPorDois =[];
+
+for ( var i = 1; i <=5; i++){
+    if ( i % 2 ==! 0){
+        divisiveisPorDois.push(i)
+    }
+}
+
+
+console.log(divisiveisPorDois);
+
+
